@@ -1,0 +1,12 @@
+all:
+  children:
+    nbde-servers:
+      hosts:
+        tang1:
+    nbde-clients:
+      hosts:
+        rhel8-server1:
+        rhel8-server2:
+        rhel7-server1:
+        rhel7-server2:
+

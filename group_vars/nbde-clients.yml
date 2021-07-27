@@ -1,0 +1,6 @@
+nbde_client_bindings:
+  - device: /dev/vda2
+    encryption_password:  <generate an encrypted string with ansible-vault>
+    servers:
+      - http://tang1.example.com
+
